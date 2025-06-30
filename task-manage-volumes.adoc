@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task-manage-volumes.html
-keywords: azure netapp files, delete volumes, delete nfs volumes, netapp account, capacity pool, change service level
-summary: After you set up your working environment, you can manage Azure NetApp Files accounts, capacity pools, volumes, and snapshots.
+keywords: google cloud netapp volumes, view volumes
+summary: After you set up your working environment, you can view your Google Cloud NetApp volumes.
 ---
 
 = Manage existing volumes
@@ -13,55 +13,35 @@ summary: After you set up your working environment, you can manage Azure NetApp 
 :imagesdir: ./media/
 
 [.lead]
-You can manage existing volumes as your storage needs change. You can edit volumes, change a volume's service level, manage Snapshot copies, and delete volumes.
+You can view and delete existing volumes.
 
-== Edit a volume's size and tags
+== View a volume
 
-After you create a volume, you can modify its size and tags at any time.
-
-.Steps
-
-. Open the working environment.
-
-. Hover over the volume and select *Edit*.
-
-. Modify the size and tags as needed.
-
-. Click *Apply*.
-
-== Change the volume's service level
-
-After you create a volume, you can change the service level at any time as long as the destination capacity pool already exists.
+View the details of your volumes, including their name, count, region, capacity, and used capacity.
 
 .Steps
 
-. Open the working environment.
+. Click *Enter working environment* to open the working environment.
+You can view all your volume details including the name, region, capacity, and used capacity.
 
-. Hover over the volume and select *Change service level*.
+. To view a specific volume in the table, select "search icon" and enter the volume name.
 
-. Select the capacity pool that provides the service level that you want.
+. To view any labels associated with a volume, in the *Labels* column, select *View*.
 
-. Click *Change*.
+== View the audit log
+
+You can view all the actions performed on volumes in the timeline.
+
+.Steps
+
+. How to get to page.?
+
+. At the top right, select *Settings* > *Timeline*.
 
 .Result
 
-The volume is moved to the other capacity pool with no impact to the volume.
+In the *Audit logs* table, you can view any actions performed on your volumes.
 
-== Manage Snapshot copies
-
-Snapshot copies provide a point-in-time copy of your volume. Create Snapshot copies, restore the data to a new volume, and delete Snapshot copies.
-
-.Steps
-
-. Open the working environment.
-
-. Hover over the volume and choose one of the available options to manage Snapshot copies:
-
-* *Create a Snapshot copy*
-* *Revert volume to Snapshot*
-* *Delete a Snapshot copy*
-
-. Follow the prompts to complete the selected action.
 
 == Delete volumes
 
@@ -71,6 +51,4 @@ Delete the volumes that you no longer need.
 
 . Open the working environment.
 
-. Hover over the volume and click *Delete*.
-
-. Confirm that you want to delete the volume.
+.  Click the image:screenshot_gallery_options.gif[An icon with three dots.] button at the top of the page and click *Remove*.

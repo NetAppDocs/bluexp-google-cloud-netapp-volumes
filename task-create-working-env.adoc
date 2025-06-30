@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task-create-working-env.html
-keywords: azure netapp files, create working environment, working environment
-summary: After you set up a Microsoft Entra application, create an Azure NetApp Files working environment in BlueXP so you can start creating the volumes that you need.
+keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients
+summary: Create a Netapp Volumes for Google Cloud working environment in BlueXP to view and manage volumes.
 ---
 
-= Create an Azure NetApp Files working environment
+= Create a Google Cloud NetApp Volumes working environment
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,26 +13,47 @@ summary: After you set up a Microsoft Entra application, create an Azure NetApp 
 :imagesdir: ./media/
 
 [.lead]
-After you set up a Microsoft Entra application and add the credentials to BlueXP, create an Azure NetApp Files working environment so that you can start creating the volumes that you need.
+After you set up a service account, create a Google Cloud NetApp Volumes working environment in BlueXP so you can start managing your Google Cloud NetApp Volumes instances.
+
+Cloud volumes for this subscription are displayed in the working environment. Add new volumes if none exist.
+
+NOTE: If you have subscriptions and volumes in multiple Google Cloud projects, you need to perform this task for each project.
+
+.Before you begin
+
+You must have the following information available when adding a subscription for each project:
+
+* Service account credentials (JSON private key you downloaded)
+
+* Project name
 
 .Steps
 
-. From the Canvas page, click *Add Working Environment*.
+. From the BlueXP navigation menu, select *Storage > Canvas*.
 
-. Select *Microsoft Azure*.
+. On the Canvas page, select *Add Working Environment* and select *Google Cloud Platform*.
 
-. Next to Azure NetApp Files, select *Discover*.
+. Next to Google Cloud Netapp Volumes, select *Discover*.
 
-. On the Details page, enter a working environment name and select the credentials that you previously set up.
+. Provide information about your NetApp Volumes subscription:
 
-. Click *Continue*.
+.. Enter the working environment name you want to use.
+.. Copy/paste the JSON private key you downloaded in the previous steps.
+.. Select *Apply credentials*.
+.. Select the name of your Google Cloud project.
+.. Select the region where you want to create the working environment. The region must be one of the supported regions for Google Cloud NetApp Volumes.
+.. Select *Discover*.
++
+image:screenshot_add_cvs_gcp_credentials.png[A screenshot of adding credentials for a Google Cloud NetApp Volumes subscription.]
 
 .Result
 
-You should now have an Azure NetApp Files working environment.
+BlueXP displays your Google Cloud NetApp Volumes working environment.
 
-image:screenshot_anf_we.gif[A screenshot of an Azure NetApp Files working environment.]
+image:screenshot_cvs_gcp_cloud.png[A screenshot of Google Cloud NetApp Volumes Service working environment.]
+
+BlueXP displays existing cloud volumes in the new working environment. You can add additional cloud volumes from BlueXP.
 
 .What's next?
 
-link:task-create-volumes.html[Start creating and managing volumes].
+link:task-manage-volumes.html[View your volumes].

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task-quick-start.html
-keywords: set up azure netapp files, quick start
-summary: Get started with Azure NetApp Files by setting up a Microsoft Entra application and by creating a working environment.
+keywords: set up google cloud netapp volumes, quick start
+summary: Get started with Google Cloud NetApp Volumes by setting up Google Cloud and then creating a working environment.
 ---
 
 = Getting started workflow
@@ -13,14 +13,14 @@ summary: Get started with Azure NetApp Files by setting up a Microsoft Entra app
 :imagesdir: ./media/
 
 [.lead]
-Get started with Azure NetApp Files by setting up a Microsoft Entra application and by creating a working environment.
+Get started with Google Cloud NetApp Volumes by setting up Google Cloud and then creating a working environment.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] link:task-set-up-azure-ad.html[Set up a Microsoft Entra application]
-
-[role="quick-margin-para"]
-From Azure, grant permissions to a Microsoft Entra application and copy the application (client) ID, the directory (tenant) ID, and the value of a client secret.
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] link:task-create-working-env.html[Create an Azure NetApp Files working environment]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] link:task-set-up-gcnv.html[Set up Google Cloud NetApp Volumes]
 
 [role="quick-margin-para"]
-From BlueXP, click *Add Working Environment* > *Microsoft Azure* > *Azure NetApp Files* and then provide details about the AD application.
+From Google, create a service account.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] link:task-create-working-env.html[Create a working environment]
+
+[role="quick-margin-para"]
+From BlueXP, click *Add Working Environment* > *Google Cloud Platform* > *Google Cloud NetApp Volumes* > *Discover* and then provide details about the service account and Google Cloud project.

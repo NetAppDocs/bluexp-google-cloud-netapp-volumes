@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task-remove-working-env.html
-keywords: remove azure netapp files, remove anf, remove working environment
-summary: This action removes Azure NetApp Files from BlueXP. It doesn't delete your Azure NetApp Files account or volumes. You can add Azure NetApp Files back to BlueXP at any time.
+keywords: remove working environment, delete working environment, remove google cloud netapp volumes, remove, delete
+summary: You can remove a Google Cloud NetApp Volumes for Google Cloud subscription and all existing volumes from BlueXP. This action removes Google Cloud NetApp Volumes from BlueXP. It doesn't delete your Google Cloud NetApp Volumes account or volumes. You can add Google Cloud NetApp Volumes back to BlueXP at any time.
 ---
 
-= Remove Azure NetApp Files
+= Remove Google Cloud NetApp Volumes from BlueXP
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,14 +13,12 @@ summary: This action removes Azure NetApp Files from BlueXP. It doesn't delete y
 :imagesdir: ./media/
 
 [.lead]
-This action removes Azure NetApp Files from BlueXP. It doesn't delete your Azure NetApp Files account or volumes. You can add Azure NetApp Files back to BlueXP at any time.
+You can remove a Google Cloud NetApp Volumes for Google Cloud subscription and all existing volumes from BlueXP. The volumes are not deleted, they are just removed from the BlueXP interface.
+
+TIP: You cannot delete Google Cloud NetApp Volumes from BlueXP. Perform this action using the Google Cloud Console.
 
 .Steps
 
-. Open the Azure NetApp Files working environment.
+ . Open the working environment.
 
-. At the top right of the page, select the actions menu and click *Remove Azure NetApp Files*.
-+
-image:screenshot_anf_remove.gif[A screenshot of clicking Remove Azure NetApp Files to remove the volumes from the BlueXP interface.]
-
-. Click *Remove* to confirm.
+ . Click the image:screenshot_gallery_options.gif[An icon with three dots.] button at the top of the page and click *Remove*.
