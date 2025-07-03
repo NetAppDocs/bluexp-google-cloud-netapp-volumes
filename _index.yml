@@ -1,20 +1,18 @@
 # Start snippet: landing page
 indexpage:
-  title: Azure NetApp Files documentation
-  lead: Azure NetApp Files is a Microsoft Azure native, high performance file storage service for your core business applications. This documentation describes how to set up and manage Azure NetApp Files by using NetApp BlueXP.
-  summary: Azure NetApp Files is a Microsoft Azure native, high performance file storage service for your core business applications. This documentation describes how to set up and manage Azure NetApp Files by using NetApp BlueXP.
-  keywords: Azure NetApp files, BlueXP
+  title: Google Cloud NetApp Volumes documentation
+  lead: Google Cloud NetApp Volumes enables enterprises to migrate and run their performance-intensive and latency-sensitive core, business-critical applications in Google with no need to refactor for the cloud. This documentation describes how to set up and manage Google Cloud NetApp Volumes by using NetApp BlueXP.
+  summary: Google Cloud NetApp Volumes enables enterprises to migrate and run their performance-intensive and latency-sensitive core, business-critical applications in Google with no need to refactor for the cloud. This documentation describes how to set up and manage Google Cloud NetApp Volumes by using NetApp BlueXP.
+  keywords: Google Cloud NetApp Volumes, BlueXP
   tiles:
     - title: Get started
       links:
-      - title: Learn about Azure NetApp Files
-        url: concept-azure-netapp-files.html
+      - title: Learn about Google Cloud NetApp Volumes
+        url: concept-gcnv.html
       - title: Quick start
         url: task-quick-start.html
-    - title: Use Azure NetApp Files
+    - title: Use Google Cloud NetApp Volumes
       links:
-        - title: Create volumes
-          url: task-create-volumes.html
         - title: Manage volumes
           url: task-manage-volumes.html
     - title: Blogs & community
