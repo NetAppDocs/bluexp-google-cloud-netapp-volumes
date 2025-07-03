@@ -14,7 +14,8 @@ summary: Google Cloud NetApp Volumes enables enterprises to migrate and run thei
 
 [.lead]
 Google Cloud NetApp Volumes is a fully managed, cloud-based data storage service that provides advanced data management capabilities and highly scalable performance.
-NetApp Volumes accelerates deployment, manages workloads and applications, and migrates them to the cloud while maintaining on-premises storage performance.
+
+NetApp Volumes helps to accelerate deployment times, manage your workloads and applications, and migrate workloads to the cloud while keeping the performance and features of on-premises storage.
 
 == Features
 
@@ -46,5 +47,5 @@ For technical issues associated with your cloud volumes, you can create a techni
 
 == Related links
 
-* https://cloud.google.com/netapp/volumes/docs/discover/overview[Google CLoud NetApp Volumes documentation^]
+* https://cloud.google.com/netapp/volumes/docs/discover/overview[Google Cloud NetApp Volumes documentation^]
 * https://docs.netapp.com/us-en/bluexp-copy-sync/index.html[BlueXP copy and sync documentation^]

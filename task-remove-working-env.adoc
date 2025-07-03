@@ -13,7 +13,7 @@ summary: You can remove a Google Cloud NetApp Volumes for Google Cloud subscript
 :imagesdir: ./media/
 
 [.lead]
-You can remove a Google Cloud NetApp Volumes for Google Cloud subscription and all existing volumes from BlueXP. The volumes are not deleted, they are just removed from the BlueXP interface.
+You can remove a Google Cloud NetApp Volumes subscription and all existing volumes from BlueXP. The volumes are not deleted, they are just removed from the BlueXP interface.
 
 TIP: You cannot delete Google Cloud NetApp Volumes from BlueXP. Perform this action using the Google Cloud Console.
 

@@ -13,7 +13,7 @@ summary: After you set up your working environment, you can view your Google Clo
 :imagesdir: ./media/
 
 [.lead]
-You can view and delete existing volumes.
+You can view your existing volumes and any actions you performed on them.
 
 == View a volume
 
