@@ -41,7 +41,7 @@ The Cloud Console generates a service account ID based on this name. Edit the ID
 
 .. In the New Members field, enter the full service account ID.
 +
-For example: \user1-service-account-cvs@project1.iam.gserviceaccount.com
+For example: \user1-service-account-gcnv@project1.iam.gserviceaccount.com
 
 .. Add these roles:
 * _NetApp Cloud Volumes Admin_

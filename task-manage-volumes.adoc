@@ -41,14 +41,3 @@ You can view all the actions performed on volumes in the timeline.
 .Result
 
 In the *Audit logs* table, you can view any actions performed on your volumes.
-
-
-== Delete volumes
-
-Delete the volumes that you no longer need.
-
-.Steps
-
-. Open the working environment.
-
-.  Click the image:screenshot_gallery_options.gif[An icon with three dots.] button at the top of the page and click *Remove*.

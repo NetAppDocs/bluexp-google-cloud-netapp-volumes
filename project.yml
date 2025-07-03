@@ -1,5 +1,5 @@
 settings:
-  name: Azure NetApp Files
+  name: Google Cloud NetApp Volumes
   platform: cloud
   internal:
     pdf_enabled: true
@@ -9,7 +9,7 @@ settings:
   rss_page: "whats-new.html"
 sidebar:
   entries:
-   - title: Azure NetApp Files docs
+   - title: Google Cloud NetApp Volumes
      url: /index.html
    - title: Release notes
      entries:
@@ -17,21 +17,19 @@ sidebar:
         url: /whats-new.html
    - title: Get started
      entries:
-     - title: Learn about Azure NetApp Files
-       url: /concept-azure-netapp-files.html
+     - title: Learn about Google Cloud NetApp Volumes
+       url: /concept-gcnv.html
      - title: Getting started workflow
        url: /task-quick-start.html
-     - title: Set up a Microsoft Entra application
-       url: /task-set-up-azure-ad.html
+     - title: Set up a Google Clooud
+       url: /task-set-up-gcnv.html
      - title: Create a working environment
        url: /task-create-working-env.html
-   - title: Use Azure NetApp Files
+   - title: Use Google Cloud NetApp Volumes
      entries:
-        - title: Create and mount volumes
-          url: /task-create-volumes.html
-        - title: Manage existing volumes
+        - title: Manage volumes
           url: /task-manage-volumes.html
-        - title: Remove Azure NetApp Files
+        - title: Remove Google Cloud NetApp Volumes
           url: /task-remove-working-env.html
    - title: Knowledge and support
      entries:
