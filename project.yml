@@ -21,7 +21,7 @@ sidebar:
        url: /concept-gcnv.html
      - title: Getting started workflow
        url: /task-quick-start.html
-     - title: Set up a Google Cloud
+     - title: Set up Google Cloud
        url: /task-set-up-gcnv.html
      - title: Create a working environment
        url: /task-create-working-env.html
