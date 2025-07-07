@@ -1,0 +1,9 @@
+=== Support for Google Cloud NetApp Volumes in BlueXP
+
+You can now manage Google Cloud NetApp Volumes directly from BlueXP:
+
+* Set up and create a working environment.
+
+* View and manage your volumes.
+
+* Remove your working environment.
