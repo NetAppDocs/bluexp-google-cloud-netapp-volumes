@@ -15,7 +15,7 @@ summary: Create a Netapp Volumes for Google Cloud working environment in BlueXP 
 [.lead]
 After you set up a service account, create a Google Cloud NetApp Volumes working environment in BlueXP so you can start managing your Google Cloud NetApp Volumes instances.
 
-Cloud volumes for this subscription are displayed in the working environment. Add new volumes if none exist.
+Cloud volumes for this subscription are displayed in the working environment.
 
 NOTE: If you have subscriptions and volumes in multiple Google Cloud projects, you need to perform this task for each project.
 
@@ -33,7 +33,7 @@ You must have the following information available when adding a subscription for
 
 . On the Canvas page, select *Add Working Environment* and select *Google Cloud Platform*.
 
-. Next to Google Cloud Netapp Volumes, select *Discover*.
+. Next to *Google Cloud Netapp Volumes*, select *Discover*.
 
 . Provide information about your NetApp Volumes subscription:
 
