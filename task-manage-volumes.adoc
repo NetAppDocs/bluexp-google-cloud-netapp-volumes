@@ -24,7 +24,7 @@ View the details of your volumes, including their name, count, region, capacity,
 . Click *Enter working environment* to open the working environment.
 You can view all your volume details including the name, region, capacity, and used capacity.
 
-. To view a specific volume in the table, select "search icon" and enter the volume name.
+. To view a specific volume in the table, select image:icon_search.png[An icon with three dots.] and enter the volume name.
 
 . To view any labels associated with a volume, in the *Labels* column, select *View*.
 
