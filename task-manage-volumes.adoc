@@ -17,7 +17,7 @@ You can view your existing volumes and any actions you performed on them.
 
 == View a volume
 
-View the details of your volumes, including their name, count, region, capacity, and used capacity.
+View the details of your volumes, such as their name, count, region, capacity, used capacity, and storage pool.
 
 .Steps
 
@@ -33,8 +33,6 @@ You can view all your volume details including the name, region, capacity, and u
 You can view all the actions performed on volumes in the timeline.
 
 .Steps
-
-. How to get to page.?
 
 . At the top right, select *Settings* > *Timeline*.
 

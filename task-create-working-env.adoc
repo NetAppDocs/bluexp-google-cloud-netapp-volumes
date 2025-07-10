@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: task-create-working-env.html
 keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients
-summary: Create a Netapp Volumes for Google Cloud working environment in BlueXP to view and manage volumes.
+summary: Add a Netapp Volumes for Google Cloud working environment in BlueXP to view and manage volumes.
 ---
 
-= Create a Google Cloud NetApp Volumes working environment
+= Add a Google Cloud NetApp Volumes working environment
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Create a Netapp Volumes for Google Cloud working environment in BlueXP 
 :imagesdir: ./media/
 
 [.lead]
-After you set up a service account, create a Google Cloud NetApp Volumes working environment in BlueXP so you can start managing your Google Cloud NetApp Volumes instances.
+After you set up a service account, add a Google Cloud NetApp Volumes working environment in BlueXP so you can view your Google Cloud NetApp Volumes instances.
 
 Cloud volumes for this subscription are displayed in the working environment.
 
@@ -51,8 +51,6 @@ image:screenshot_create_environment.png[A screenshot of adding credentials for a
 BlueXP displays your Google Cloud NetApp Volumes working environment.
 
 image:screenshot_gcnv_environment.png[A screenshot of Google Cloud NetApp Volumes Service working environment.]
-
-BlueXP displays existing cloud volumes in the new working environment. You can add additional cloud volumes from BlueXP.
 
 .What's next?
 
