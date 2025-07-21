@@ -1,0 +1,22 @@
+---
+sidebar: sidebar
+permalink: whats-new.html
+keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes
+summary: Learn what's new with Google Cloud NetApp Volumes support in BlueXP.
+---
+
+= What's new
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Learn what's new with Google Cloud NetApp Volumes support in BlueXP.
+
+// tag::whats-new[]
+== 21 July 2025
+
+include::_whatsnew/2025-07-14.adoc[]
+// end::whats-new[]

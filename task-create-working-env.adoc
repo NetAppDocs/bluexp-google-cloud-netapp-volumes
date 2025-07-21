@@ -1,0 +1,57 @@
+---
+sidebar: sidebar
+permalink: task-create-working-env.html
+keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients
+summary: Add a Netapp Volumes for Google Cloud working environment in BlueXP to view and manage volumes.
+---
+
+= Add a Google Cloud NetApp Volumes working environment
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+After you set up a service account, add a Google Cloud NetApp Volumes working environment in BlueXP so you can view your Google Cloud NetApp Volumes instances.
+
+Cloud volumes for this subscription are displayed in the working environment.
+
+NOTE: If you have subscriptions and volumes in multiple Google Cloud projects, you need to perform this task for each project.
+
+.Before you begin
+
+You must have the following information available when adding a subscription for each project:
+
+* Service account credentials (JSON private key you downloaded)
+
+* Project name
+
+.Steps
+
+. From the BlueXP navigation menu, select *Storage > Canvas*.
+
+. On the Canvas page, select *Add Working Environment* and select *Google Cloud Platform*.
+
+. Next to *Google Cloud Netapp Volumes*, select *Discover*.
+
+. Provide information about your NetApp Volumes subscription:
+
+.. Enter the working environment name you want to use.
+.. Copy/paste the JSON private key you downloaded in the previous steps.
+.. Select *Apply credentials*.
+.. Select the name of your Google Cloud project.
+.. Select the region where you want to create the working environment. The region must be one of the supported regions for Google Cloud NetApp Volumes.
+.. Select *Discover*.
++
+image:screenshot_create_environment.png[A screenshot of adding credentials for a Google Cloud NetApp Volumes subscription.]
+
+.Result
+
+BlueXP displays your Google Cloud NetApp Volumes working environment.
+
+image:screenshot_gcnv_environment.png[A screenshot of Google Cloud NetApp Volumes Service working environment.]
+
+.What's next?
+
+link:task-manage-volumes.html[View your volumes].
