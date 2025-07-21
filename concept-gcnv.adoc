@@ -42,7 +42,7 @@ Use the BlueXP chat for general questions about Google Cloud NetApp Volumes  ope
 
 For general questions about Google Cloud NetApp Volumes, email NetApp's Google Cloud Team at gcinfo@netapp.com.
 
-For technical issues associated with your cloud volumes, you can create a technical support case from the Google Cloud Console. See link:https://cloud.google.com/solutions/partners/netapp-cloud-volumes/support[obtaining support^] for details.
+For technical issues associated with your cloud volumes, you can create a technical support case from the Google Cloud Console. See link:https://cloud.google.com/netapp/volumes/docs/support[obtaining support^] for details.
 
 
 == Related links
