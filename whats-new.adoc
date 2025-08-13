@@ -18,5 +18,5 @@ Learn what's new with Google Cloud NetApp Volumes support in BlueXP.
 // tag::whats-new[]
 == 21 July 2025
 
-include::../_whatsnew/2025-07-14.adoc[]
+include::_whatsnew/2025-07-14.adoc[]
 // end::whats-new[]
