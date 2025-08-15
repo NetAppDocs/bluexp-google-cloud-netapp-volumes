@@ -19,9 +19,9 @@ BlueXP needs the right permissions through a Google Cloud service account.
 
 Complete the following tasks so that BlueXP can access your Google Cloud project:
 
-* Create a new service account
-* Add the new service account member to your project and assign it specific roles (permissions)
-* Create and download a key pair for the service account that is used to authenticate to Google
+* If you do not already have an existing service account, create a new one.
+* Add the service account member to your project and assign it specific roles (permissions).
+* Create and download a key pair for the service account that is used to authenticate to Google.
 
 .Steps
 
@@ -29,13 +29,14 @@ Complete the following tasks so that BlueXP can access your Google Cloud project
 
 . Click *Select a project*, choose your project, and click *Open*.
 
-. Click *Create service account*.
+. (Optional) To create a service account, do the following:
+.. Click *Create service account*.
 
-. Enter the service account name (friendly display name) and description.
+.. Enter the service account name (friendly display name) and description.
 +
 The Cloud Console generates a service account ID based on this name. Edit the ID if necessary - you cannot change the ID later.
 
-. To set access controls now, click *Create* and then *DONE* from the bottom of the page, and continue to the next step.
+.. To set access controls now, click *Create* and then *DONE* from the bottom of the page, and continue to the next step.
 
 . From the _IAM page_ click *Add* and fill out the fields in the _Add Members_ page:
 
@@ -43,9 +44,10 @@ The Cloud Console generates a service account ID based on this name. Edit the ID
 +
 For example: \user1-service-account-gcnv@project1.iam.gserviceaccount.com
 
-.. Add these roles:
+.. Add one of these roles:
 * _Google Cloud NetApp Volumes Admin_
-* _Google Cloud NetApp Viewer_
+OR
+* _Google Cloud NetApp Volumes Viewer_
 
 .. Click *Save*.
 
